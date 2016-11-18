@@ -1,19 +1,17 @@
 {
-  "name": "agency",
+  "name": "work",
   "title": "Agency",
-  "version": "3.3.7+1",
+  "version": "3.3.7",
   "homepage": "http://startbootstrap.com/template-overviews/agency",
   "author": "Start Bootstrap",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
-  },
+  "license": "UNLICENSED",
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
     "font-awesome": "^4.6.3",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.0.10",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-header": "^1.8.7",
     "gulp-less": "^3.1.0",
     "gulp-rename": "^1.2.2",
@@ -23,6 +21,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
-  }
+    "url": "git+https://github.com/BlackrockDigital/startbootstrap-agency.git"
+  },
+  "description": "[Agency](http://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.",
+  "bugs": {
+    "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues"
+  },
+  "main": "gulpfile.js",
+  "dependencies": {
+    "global": "^4.3.1",
+    "gulp-cli": "^1.2.2"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "travel"
+  ]
 }
